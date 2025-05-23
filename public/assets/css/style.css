@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lugrasimo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap');
 
 body {
     background: #155984;
@@ -31,6 +32,14 @@ p {
 main {
     background: #edf6f9;
     padding: 20px;
+}
+
+main h1{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 100px;
 }
 
 main div {
