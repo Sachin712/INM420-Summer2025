@@ -81,19 +81,11 @@ footer {
 }
 
 /* START Berk Salman */
-.berksalmanContainer {
-  width: 80%;
-  background-color: white;
-  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 25px 10px;
-}
-
-.berksalmanContainer img {
-    width: 100%;
-}
-
 .berksalman {
-  text-align: center;
-  padding: 10px px;
+    color: #222d40;
+    font-size: 5em;
+    text-decoration: #d33939 underline dotted;
+    text-decoration-skip: ink;
+    opacity: .9;
+    padding: 5px;
 }
-/* END Berk Salman */
