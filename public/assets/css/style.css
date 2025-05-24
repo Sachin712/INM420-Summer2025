@@ -79,3 +79,13 @@ footer {
         width: calc(33.3333% - 50px);
     }
 }
+
+/* Berk Salman */
+.berksalman {
+    color: #222d40;
+    font-size: 5em;
+    text-decoration: #d33939 underline dotted;
+    text-decoration-skip: ink;
+    opacity: .9;
+    padding: 5px;
+}
