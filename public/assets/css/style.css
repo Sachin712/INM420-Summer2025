@@ -34,7 +34,7 @@ main {
     padding: 20px;
 }
 
-main h1{
+main h1 {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 900;
@@ -48,6 +48,7 @@ main div {
     margin-bottom: 10px;
     text-align: center;
 }
+
 .bebas-neue-regular {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
@@ -99,17 +100,27 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 24px 16px;  
+    padding: 24px 16px;
     color: #723c1a;
     border: solid 4px #e9c0af;
     border-radius: 16px;
     font-family: comfortaa;
 }
+
 /* Nathalia Aguiar*/
 .nathalia {
-  font-family: 'Poetsen One', sans-serif;
-  font-size: 60px;
-  color: #4e0569;
-  text-align: left;
-  margin-top: 30px;
+    font-family: 'Poetsen One', sans-serif;
+    font-size: 60px;
+    color: #4e0569;
+    text-align: left;
+    margin-top: 30px;
+}
+
+/* Lisa Gizri */
+.LG {
+    font-family: "Baskervville", serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: #412461;
+    text-decoration: #a179ff underline double;
 }
