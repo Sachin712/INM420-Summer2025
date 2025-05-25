@@ -89,3 +89,19 @@ footer {
     opacity: .9;
     padding: 5px;
 }
+
+/* michael Akinmeji */
+.mic {
+    font-size: 48px;
+    font-weight: bolder;
+    background-color: #ffddcb;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 16px;  
+    color: #723c1a;
+    border: solid 4px #e9c0af;
+    border-radius: 16px;
+    font-family: comfortaa;
+}
