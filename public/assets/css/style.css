@@ -156,10 +156,10 @@ Totally Didn't Just Steal This
 }
 
 .karan {
-    background: #002750;
     border-radius: 20px;
-    border: solid 4px #ffcc00;
-    color: #ffcc00;
+    border: solid 4px #a40000;
+    color: #ffe76e;
+    text-shadow: 2px 2px 3px rgb(17, 0, 3);
     font-family: "Belanosima", sans-serif;
     text-decoration: none;
     text-align: center;
@@ -167,4 +167,9 @@ Totally Didn't Just Steal This
     font-size: 50px;
     padding: 12px 25px;
     width: fit-content;
+    background-image: url("../images/karanveer.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
