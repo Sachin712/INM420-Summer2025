@@ -12,6 +12,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap" rel="stylesheet');
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
+
 body {
     background: #155984;
     color: #121015;
@@ -157,7 +158,6 @@ Totally Didn't Just Steal This
   cursor: pointer;
 }
 
-
 /* Nahomi Heredia */
 
 /* Container for NH */
@@ -242,7 +242,6 @@ Totally Didn't Just Steal This
   letter-spacing: 2px;
   box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
 }
-
 
 /* Anthony */
 .AOP{
