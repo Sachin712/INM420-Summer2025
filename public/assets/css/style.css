@@ -9,6 +9,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
 
 body {
@@ -154,6 +156,91 @@ Totally Didn't Just Steal This
     box-shadow: inset 0 2px 4px #ffffff69, 0px 2px 4px -1px #0000004d;
     user-select: none;
   cursor: pointer;
+}
+
+/* Nahomi Heredia */
+
+/* Container for NH */
+.NH-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color:#6a00ff;
+  border-radius: 25px;
+}
+
+/* Styling the name NH */
+.NH {
+  font-family: fantasy;
+  font-size: 50px;
+  color: #fff;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  position: relative;
+  animation: fadeIn 3s ease-out, moveUp 2s ease-out;
+}
+
+/* Animations FADE IN*/
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Glowing effect */
+.NH::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, #ff00ee, #00fff7);
+  background-size: 200% 200%;
+  animation: glow 2s ease-in-out infinite, moveGlow 4s linear infinite;
+  filter: blur(8px);
+  z-index: -1;
+}
+
+/* Animation Glowing Effect */
+@keyframes glow {
+  0% {
+    background-position: 200% 0;
+  }
+  50% {
+    background-position: 0 100%;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+@keyframes moveGlow {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+.RA {
+  font-family: 'Fredoka', sans-serif;
+  color: #13084f;
+  font-size: 4em;
+  background: linear-gradient(to right, #374b77, #30548a);
+  border: 3px dashed #517de4;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
 }
 
 /* Anthony */
