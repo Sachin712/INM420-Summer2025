@@ -158,6 +158,29 @@ Totally Didn't Just Steal This
   cursor: pointer;
 }
 
+.RA {
+  font-family: 'Fredoka', sans-serif;
+  color: #13084f;
+  font-size: 4em;
+  background: linear-gradient(to right, #374b77, #30548a);
+  border: 3px dashed #517de4;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Anthony */
+.AOP{
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  color: #00e7e0;
+  padding: 20px;
+}
+
 /* Nahomi Heredia */
 
 /* Container for NH */
@@ -228,27 +251,4 @@ Totally Didn't Just Steal This
   100% {
     opacity: 0.5;
   }
-}
-
-.RA {
-  font-family: 'Fredoka', sans-serif;
-  color: #13084f;
-  font-size: 4em;
-  background: linear-gradient(to right, #374b77, #30548a);
-  border: 3px dashed #517de4;
-  border-radius: 20px;
-  padding: 20px;
-  text-align: center;
-  letter-spacing: 2px;
-  box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
-}
-
-/* Anthony */
-.AOP{
-  font-family: "Rock Salt", cursive;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 40px;
-  color: #00e7e0;
-  padding: 20px;
 }
