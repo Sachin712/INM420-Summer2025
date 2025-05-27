@@ -13,6 +13,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Combo&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
 
 body {
     background: #155984;
@@ -330,4 +331,30 @@ font-size: 48px;
 @keyframes wave {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(10px); }
+}
+
+
+/* VAN FERNANDEZ */
+.van {
+  font-family: "Fascinate", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+  color: #1a1a1a;
+  border-radius: 25px;
+  background: linear-gradient(135deg, gold, #ffeb99);
+  padding: 20px 40px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 10px 0 #d63333, 0 20px 0 #000;
+  text-shadow: 2px 2px 0 #000, 4px 4px 0 #ffffff33;
+  border: 4px solid #000;
+  transition: transform 0.2s ease;
+}
+
+.van:hover {
+  transform: scale(1.05) rotate(-2deg);
 }
