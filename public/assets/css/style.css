@@ -301,3 +301,33 @@ Totally Didn't Just Steal This
   font-size: 60px;
   margin: 30px 0;
 }
+
+
+/* Arth Verma */
+.av_typing {
+font-family: 'Orbitron', sans-serif;
+font-size: 48px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 40px;
+  font-weight: 600;
+  background: linear-gradient(90deg, #00ddeb, #ff3e6c, #00ddeb);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  display: inline-block;
+  animation: gradient-flow 4s ease-in-out infinite, wave 2s ease-in-out infinite;
+  text-shadow: 0 0 8px rgba(0, 221, 235, 0.4), 0 0 12px rgba(255, 62, 108, 0.3);
+}
+
+@keyframes gradient-flow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 200% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes wave {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(10px); }
+}
