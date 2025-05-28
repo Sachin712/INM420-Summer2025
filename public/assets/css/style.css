@@ -34,6 +34,7 @@ main {
     padding: 20px;
 }
 
+<<<<<<< Updated upstream
 main h1{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -41,6 +42,9 @@ main h1{
     font-style: normal;
     font-size: 100px;
 }
+=======
+
+>>>>>>> Stashed changes
 
 main div {
     background: #c0e297;
@@ -78,4 +82,357 @@ footer {
     main div {
         width: calc(33.3333% - 50px);
     }
+<<<<<<< Updated upstream
+=======
+}
+
+/* Ryan Cha */
+.ryan {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 100px;
+}
+
+/* Berk Salman */
+.berksalman {
+    color: #222d40;
+    font-size: 5em;
+    text-decoration: #d33939 underline dotted;
+    text-decoration-skip: ink;
+    opacity: .9;
+    padding: 5px;
+}
+
+/* michael Akinmeji */
+.mic {
+    font-size: 48px;
+    font-weight: bolder;
+    background-color: #ffddcb;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 16px;
+    color: #723c1a;
+    border: solid 4px #e9c0af;
+    border-radius: 16px;
+    font-family: comfortaa;
+}
+
+/* Lisa Gizri */
+.LG {
+    font-family: "Baskervville", serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: #412461;
+    text-decoration: #a179ff underline double;
+}
+
+/* Nathalia Aguiar*/
+.nathalia {
+    font-family: 'Poetsen One', sans-serif;
+    font-size: 60px;
+    color: #4e0569;
+    text-align: left;
+    margin-top: 30px;
+}
+
+miguel-santos
+/* 
+    __  ____                  __
+   /  |/  (_)___ ___  _____  / /
+  / /|_/ / / __ `/ / / / _ \/ / 
+ / /  / / / /_/ / /_/ /  __/ /  
+/_/  /_/_/\__, /\__,_/\___/_/   
+         /____/       
+
+Totally Didn't Just Steal This
+
+*/
+.miguel {
+    background: #007AFF;
+    border-radius: 10px;
+    color: #f5f5f5;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    margin: .7rem;
+    padding: .4rem 1.2rem;
+    width: fit-content;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: inset 0 2px 4px #ffffff69, 0px 2px 4px -1px #0000004d;
+    user-select: none;
+  cursor: pointer;
+}
+
+.RA {
+  font-family: 'Fredoka', sans-serif;
+  color: #13084f;
+  font-size: 4em;
+  background: linear-gradient(to right, #374b77, #30548a);
+  border: 3px dashed #517de4;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Anthony */
+.AOP{
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  color: #00e7e0;
+  padding: 20px;
+}
+
+/* Nahomi Heredia */
+
+/* Container for NH */
+.NH-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color:#6a00ff;
+  border-radius: 25px;
+}
+
+/* Styling the name NH */
+.NH {
+  font-family: fantasy;
+  font-size: 50px;
+  color: #fff;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  position: relative;
+  animation: fadeIn 3s ease-out, moveUp 2s ease-out;
+}
+
+.divyesh {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 64px;
+  color: #fff;
+  background: linear-gradient(to right, #ff5f6d, #ffc371);
+  padding: 12px 24px;
+  margin: 20px auto;
+  border-radius: 12px;
+  letter-spacing: 1px;
+  width: fit-content;
+  max-width: 90%;
+  display: flex;               
+  align-items: center;        
+  justify-content: center;    
+  height: 70px;              
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* Animations FADE IN*/
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Glowing effect */
+.NH::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, #ff00ee, #00fff7);
+  background-size: 200% 200%;
+  animation: glow 2s ease-in-out infinite, moveGlow 4s linear infinite;
+  filter: blur(8px);
+  z-index: -1;
+}
+
+/* Animation Glowing Effect */
+@keyframes glow {
+  0% {
+    background-position: 200% 0;
+  }
+  50% {
+    background-position: 0 100%;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+@keyframes moveGlow {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+/* Jasleen */
+.jasleen{
+  font-family: Combo;
+  font-size: 2.5rem;
+  color:#5a7c5d;
+  background-clip: text;
+  text-align: left;
+  animation: jfadeIn 1.5s ease-out forwards;
+  opacity: 0;
+}
+@keyframes jfadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+
+.MY {
+  font-family: "Rock Salt", cursive;
+  color: darkslategray;
+  font-size: 60px;
+  margin: 30px 0;
+}
+
+/* Bumyol Lee Dave */
+.BY {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 50px;
+  color: #1e58bd;
+  text-align: center;
+  margin-top: 20px;
+  animation: partyMode 3s infinite ease-in-out;
+  text-shadow: 
+    2px 2px 0 #00ffff,
+    -2px -2px 0 #ffff00,
+    4px 4px 10px #ff00ff;
+  transform-origin: center;
+  overflow: hidden;
+}
+/* Party Mode Animation */
+@keyframes partyMode {
+  0% {
+    transform: rotate(0deg) scale(1) skew(0deg, 0deg);
+    color: #ff00ff;
+    text-shadow: 2px 2px 0 #00ffff, -2px -2px 0 #ffff00;
+  }
+  20% {
+    transform: rotate(5deg) scale(1.1) skew(2deg, 2deg);
+    color: #00ffff;
+    text-shadow: 2px 2px 10px #ff00ff, -2px -2px 0 #00ff00;
+  }
+  40% {
+    transform: rotate(-5deg) scale(0.9) skew(-2deg, -2deg);
+    color: #ffff00;
+    text-shadow: -2px -2px 10px #00ffff, 2px 2px 0 #ff0000;
+  }
+  60% {
+    transform: rotate(10deg) scale(1.2) skew(2deg, 2deg);
+    color: #ff0000;
+    text-shadow: 4px 4px 15px #00ffcc;
+  }
+  80% {
+    transform: rotate(-10deg) scale(0.95) skew(-2deg, -2deg);
+    color: #00ff00;
+    text-shadow: -4px -4px 15px #ff00cc;
+  }
+  100% {
+    transform: rotate(0deg) scale(1) skew(0deg, 0deg);
+    color: #ff00ff;
+    text-shadow: 2px 2px 0 #00ffff, -2px -2px 0 #ffff00;
+  }
+}
+
+/* Arth Verma */
+.av_typing {
+font-family: 'Orbitron', sans-serif;
+font-size: 48px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 40px;
+  font-weight: 600;
+  background: linear-gradient(90deg, #00ddeb, #ff3e6c, #00ddeb);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  display: inline-block;
+  animation: gradient-flow 4s ease-in-out infinite, wave 2s ease-in-out infinite;
+  text-shadow: 0 0 8px rgba(0, 221, 235, 0.4), 0 0 12px rgba(255, 62, 108, 0.3);
+}
+
+@keyframes gradient-flow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 200% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes wave {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(10px); }
+}
+
+
+/* VAN FERNANDEZ */
+.van {
+  font-family: "Fascinate", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+  color: #1a1a1a;
+  border-radius: 25px;
+  background: linear-gradient(135deg, gold, #ffeb99);
+  padding: 20px 40px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 10px 0 #d63333, 0 20px 0 #000;
+  text-shadow: 2px 2px 0 #000, 4px 4px 0 #ffffff33;
+  border: 4px solid #000;
+  transition: transform 0.2s ease;
+}
+
+.van:hover {
+  transform: scale(1.05) rotate(-2deg);
+}
+
+.anac{
+  font-family: "Fascinate", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  background-color: rgb(70, 70, 173);
+  color: #00ddeb;
+  border-radius: 50px;
+  
+
+}
+
+.sakimoto{
+  font-family: "Rampart One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  background-color: #4B3F72;
+  color: #ffffff;
+  border-radius: 32px;
+>>>>>>> Stashed changes
 }
