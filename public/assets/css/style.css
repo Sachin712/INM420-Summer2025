@@ -17,6 +17,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 
 body {
@@ -451,6 +452,22 @@ font-size: 48px;
   animation: fadeInUp 1.5s ease-out forwards;
   opacity: 0;
   text-decoration: none;
+}
+
+/* Claire Lee */
+.claire{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-size: 60px;
+  font-style: normal;
+  background-color: salmon;
+  color: #007AFF;
+  width: 300px;
+  height: 60px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
 }
 
 @keyframes fadeInUp {
