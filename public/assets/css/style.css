@@ -18,6 +18,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Pacifico&display=swap');
 
 
 body {
@@ -479,5 +480,16 @@ font-size: 48px;
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+/* Jarrell Blay */
+.Jarrell {
+  font-family: 'Pacifico', cursive;
+  color: #1a73e8;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 20px;
+  opacity: 0;
+  animation: fadeIn 2s ease-in forwards; 
 }
 
