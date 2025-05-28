@@ -15,6 +15,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
 
 
 body {
@@ -226,6 +227,16 @@ Totally Didn't Just Steal This
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
+/* Hideki Sakimoto */
+.sakimoto{
+  font-family: "Rampart One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  background-color: #4B3F72;
+  color: #fff;
+  border-radius: 32px;
+}
 
 
 /* Animations FADE IN*/
@@ -352,6 +363,7 @@ Totally Didn't Just Steal This
     color: #ff00ff;
     text-shadow: 2px 2px 0 #00ffff, -2px -2px 0 #ffff00;
   }
+}
 
 /* Arth Verma */
 .av_typing {
