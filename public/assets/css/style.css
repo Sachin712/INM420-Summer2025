@@ -18,7 +18,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
 
 body {
     background: #155984;
@@ -481,3 +481,10 @@ font-size: 48px;
   }
 }
 
+
+.gabriela{
+  font-family: 'Honk', sans-serif;
+  font-size: 100px;
+  background-color: #00fff7;
+
+}
