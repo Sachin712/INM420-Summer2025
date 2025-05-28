@@ -45,14 +45,6 @@ main {
     padding: 20px;
 }
 
-main h1 {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 900;
-    font-style: normal;
-    font-size: 100px;
-}
-
 main div {
     background: #c0e297;
     padding: 20px;
@@ -90,6 +82,17 @@ footer {
     main div {
         width: calc(33.3333% - 50px);
     }
+
+
+}
+
+/* Ryan Cha */
+.ryan {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 100px;
 }
 
 /* Berk Salman */
