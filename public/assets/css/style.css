@@ -34,17 +34,6 @@ main {
     padding: 20px;
 }
 
-<<<<<<< Updated upstream
-main h1{
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 900;
-    font-style: normal;
-    font-size: 100px;
-}
-=======
-
->>>>>>> Stashed changes
 
 main div {
     background: #c0e297;
@@ -82,8 +71,7 @@ footer {
     main div {
         width: calc(33.3333% - 50px);
     }
-<<<<<<< Updated upstream
-=======
+
 }
 
 /* Ryan Cha */
@@ -434,5 +422,4 @@ font-size: 48px;
   background-color: #4B3F72;
   color: #ffffff;
   border-radius: 32px;
->>>>>>> Stashed changes
 }
