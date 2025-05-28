@@ -7,6 +7,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
 
 body {
     background: #155984;
@@ -16,7 +27,7 @@ body {
 
 header {
     background: #edf6f9;
-    text-align: center;
+    text-align: center;    
     padding: 40px;
 }
 
@@ -34,13 +45,13 @@ main {
     padding: 20px;
 }
 
-
 main div {
     background: #c0e297;
     padding: 20px;
     margin-bottom: 10px;
     text-align: center;
 }
+
 .bebas-neue-regular {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
@@ -71,6 +82,7 @@ footer {
     main div {
         width: calc(33.3333% - 50px);
     }
+
 
 }
 
