@@ -432,3 +432,32 @@ font-size: 48px;
   color: #ffffff;
   border-radius: 32px;
 }
+
+/* Sooyeon Kim */
+.sooyeon {
+  font-family: "Great Vibes", cursive;
+  font-size: 50px;
+  background: linear-gradient(120deg, #FFE99A, #fda085);
+  color: white;
+  padding: 20px;
+  margin: 30px auto;
+  width: fit-content;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  animation: fadeInUp 1.5s ease-out forwards;
+  opacity: 0;
+  text-decoration: none;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
