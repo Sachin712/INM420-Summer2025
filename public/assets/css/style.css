@@ -566,3 +566,16 @@ Totally Didn't Just Steal This
   border: 5px solid #7733c042;
   color: #974de7;
 }
+
+.sara {
+  font-family: 'poppins', sans-serif;
+  font-size: 50px;
+  color: #13084f;
+}
+
+.sara-img {
+  width: 300px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
