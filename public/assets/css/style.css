@@ -19,6 +19,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Carattere&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
 
 
 body {
@@ -532,4 +533,22 @@ Totally Didn't Just Steal This
   background-color: #ff9500;
   color: #000000;
   border-radius: 16px;
+}
+
+/* tamires segata */
+.tgsegata {
+  width: 35vw;
+  height: 170px;
+  font-family: "Cherry Bomb One", system-ui;
+  color: rgb(255, 148, 205);
+  font-size: 70px;
+  background-color: rgba(255, 148, 205, 0.323);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+.tgsegata:hover {
+  border: 5px solid #7733c042;
+  color: #974de7;
 }
