@@ -493,3 +493,16 @@ font-size: 48px;
   animation: fadeIn 2s ease-in forwards; 
 }
 
+/* Junle(Florence)Yu */
+.florence {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 48px;
+  text-align: left;
+  margin-top: 40px;
+  background: linear-gradient(90deg, #523cf5, #a29bfe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 4px rgba(252, 0, 126, 0.3);
+  letter-spacing: 1px;
+  font-weight: bolder;
+}
