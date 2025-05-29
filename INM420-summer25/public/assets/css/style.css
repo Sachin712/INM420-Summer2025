@@ -579,3 +579,21 @@ Totally Didn't Just Steal This
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+/* Hafsa Aijaz */
+.hafsa {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  color: #800080;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.hafsa-img {
+  display: block;
+  margin: 10px auto 40px auto;
+  width: 180px;
+  border-radius: 12px;
+  border: 3px solid #800080;
+}
