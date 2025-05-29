@@ -19,129 +19,131 @@
 @import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Carattere&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
 
 
 body {
-    background: #155984;
-    color: #121015;
-    font-family: "Raleway", sans-serif;
+  background: #155984;
+  color: #121015;
+  font-family: "Raleway", sans-serif;
 }
 
 header {
-    background: #edf6f9;
-    text-align: center;    
-    padding: 40px;
+  background: #edf6f9;
+  text-align: center;
+  padding: 40px;
 }
 
 header h1 {
-    font-weight: 300;
-    font-size: 24px;
+  font-weight: 300;
+  font-size: 24px;
 }
 
 p {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 main {
-    background: #edf6f9;
-    padding: 20px;
+  background: #edf6f9;
+  padding: 20px;
 }
 
 main div {
-    background: #c0e297;
-    padding: 20px;
-    margin-bottom: 10px;
-    text-align: center;
+  background: #c0e297;
+  padding: 20px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .bebas-neue-regular {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 footer {
-    font-weight: 600;
-    text-align: center;
-    background: #e2f0c4;
-    color: #e29578;
-    padding: 40px;
-    border-top: 2px solid #e29578;
+  font-weight: 600;
+  text-align: center;
+  background: #e2f0c4;
+  color: #e29578;
+  padding: 40px;
+  border-top: 2px solid #e29578;
 
 }
 
 @media (min-width: 650px) {
-    main {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
+  main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
 
-    main p {
-        width: 100%;
-    }
+  main p {
+    width: 100%;
+  }
 
-    main div {
-        width: calc(33.3333% - 50px);
-    }
+  main div {
+    width: calc(33.3333% - 50px);
+  }
 
 
 }
 
 /* Ryan Cha */
 .ryan {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 900;
-    font-style: normal;
-    font-size: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 100px;
 }
 
 /* Berk Salman */
 .berksalman {
-    color: #222d40;
-    font-size: 5em;
-    text-decoration: #d33939 underline dotted;
-    text-decoration-skip: ink;
-    opacity: .9;
-    padding: 5px;
+  color: #222d40;
+  font-size: 5em;
+  text-decoration: #d33939 underline dotted;
+  text-decoration-skip: ink;
+  opacity: .9;
+  padding: 5px;
 }
 
 /* michael Akinmeji */
 .mic {
-    font-size: 48px;
-    font-weight: bolder;
-    background-color: #ffddcb;
-    width: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 24px 16px;
-    color: #723c1a;
-    border: solid 4px #e9c0af;
-    border-radius: 16px;
-    font-family: comfortaa;
+  font-size: 48px;
+  font-weight: bolder;
+  background-color: #ffddcb;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 16px;
+  color: #723c1a;
+  border: solid 4px #e9c0af;
+  border-radius: 16px;
+  font-family: comfortaa;
 }
 
 /* Lisa Gizri */
 .LG {
-    font-family: "Baskervville", serif;
-    font-size: 80px;
-    font-weight: 700;
-    color: #412461;
-    text-decoration: #a179ff underline double;
+  font-family: "Baskervville", serif;
+  font-size: 80px;
+  font-weight: 700;
+  color: #412461;
+  text-decoration: #a179ff underline double;
 }
 
 /* Nathalia Aguiar*/
 .nathalia {
-    font-family: 'Poetsen One', sans-serif;
-    font-size: 60px;
-    color: #4e0569;
-    text-align: left;
-    margin-top: 30px;
+  font-family: 'Poetsen One', sans-serif;
+  font-size: 60px;
+  color: #4e0569;
+  text-align: left;
+  margin-top: 30px;
 }
 
 miguel-santos
+
 /* 
     __  ____                  __
    /  |/  (_)___ ___  _____  / /
@@ -154,18 +156,18 @@ Totally Didn't Just Steal This
 
 */
 .miguel {
-    background: #007AFF;
-    border-radius: 10px;
-    color: #f5f5f5;
-    font-family: "Inter", sans-serif;
-    font-size: 32px;
-    margin: .7rem;
-    padding: .4rem 1.2rem;
-    width: fit-content;
-    text-decoration: none;
-    text-align: center;
-    box-shadow: inset 0 2px 4px #ffffff69, 0px 2px 4px -1px #0000004d;
-    user-select: none;
+  background: #007AFF;
+  border-radius: 10px;
+  color: #f5f5f5;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  margin: .7rem;
+  padding: .4rem 1.2rem;
+  width: fit-content;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: inset 0 2px 4px #ffffff69, 0px 2px 4px -1px #0000004d;
+  user-select: none;
   cursor: pointer;
 }
 
@@ -179,11 +181,11 @@ Totally Didn't Just Steal This
   padding: 20px;
   text-align: center;
   letter-spacing: 2px;
-  box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Anthony */
-.AOP{
+.AOP {
   font-family: "Rock Salt", cursive;
   font-weight: 400;
   font-style: normal;
@@ -200,7 +202,7 @@ Totally Didn't Just Steal This
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color:#6a00ff;
+  background-color: #6a00ff;
   border-radius: 25px;
 }
 
@@ -226,10 +228,10 @@ Totally Didn't Just Steal This
   letter-spacing: 1px;
   width: fit-content;
   max-width: 90%;
-  display: flex;               
-  align-items: center;        
-  justify-content: center;    
-  height: 70px;              
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -240,6 +242,7 @@ Totally Didn't Just Steal This
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -265,40 +268,47 @@ Totally Didn't Just Steal This
   0% {
     background-position: 200% 0;
   }
+
   50% {
     background-position: 0 100%;
   }
+
   100% {
     background-position: 200% 0;
   }
 }
+
 @keyframes moveGlow {
   0% {
     opacity: 0.5;
   }
+
   50% {
     opacity: 1;
   }
+
   100% {
     opacity: 0.5;
   }
 }
 
 /* Jasleen */
-.jasleen{
+.jasleen {
   font-family: Combo;
   font-size: 2.5rem;
-  color:#5a7c5d;
+  color: #5a7c5d;
   background-clip: text;
   text-align: left;
   animation: jfadeIn 1.5s ease-out forwards;
   opacity: 0;
 }
+
 @keyframes jfadeIn {
   to {
     opacity: 1;
     transform: translateY(0);
   }
+
   from {
     opacity: 0;
     transform: translateY(20px);
@@ -320,13 +330,14 @@ Totally Didn't Just Steal This
   text-align: center;
   margin-top: 20px;
   animation: partyMode 3s infinite ease-in-out;
-  text-shadow: 
+  text-shadow:
     2px 2px 0 #00ffff,
     -2px -2px 0 #ffff00,
     4px 4px 10px #ff00ff;
   transform-origin: center;
   overflow: hidden;
 }
+
 /* Party Mode Animation */
 @keyframes partyMode {
   0% {
@@ -334,26 +345,31 @@ Totally Didn't Just Steal This
     color: #ff00ff;
     text-shadow: 2px 2px 0 #00ffff, -2px -2px 0 #ffff00;
   }
+
   20% {
     transform: rotate(5deg) scale(1.1) skew(2deg, 2deg);
     color: #00ffff;
     text-shadow: 2px 2px 10px #ff00ff, -2px -2px 0 #00ff00;
   }
+
   40% {
     transform: rotate(-5deg) scale(0.9) skew(-2deg, -2deg);
     color: #ffff00;
     text-shadow: -2px -2px 10px #00ffff, 2px 2px 0 #ff0000;
   }
+
   60% {
     transform: rotate(10deg) scale(1.2) skew(2deg, 2deg);
     color: #ff0000;
     text-shadow: 4px 4px 15px #00ffcc;
   }
+
   80% {
     transform: rotate(-10deg) scale(0.95) skew(-2deg, -2deg);
     color: #00ff00;
     text-shadow: -4px -4px 15px #ff00cc;
   }
+
   100% {
     transform: rotate(0deg) scale(1) skew(0deg, 0deg);
     color: #ff00ff;
@@ -363,8 +379,8 @@ Totally Didn't Just Steal This
 
 /* Arth Verma */
 .av_typing {
-font-family: 'Orbitron', sans-serif;
-font-size: 48px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 48px;
   text-transform: uppercase;
   letter-spacing: 3px;
   margin-top: 40px;
@@ -380,14 +396,29 @@ font-size: 48px;
 }
 
 @keyframes gradient-flow {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 200% 50%; }
-  100% { background-position: 0% 50%; }
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 200% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @keyframes wave {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(10px); }
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(10px);
+  }
 }
 
 
@@ -416,7 +447,7 @@ font-size: 48px;
   transform: scale(1.05) rotate(-2deg);
 }
 
-.anac{
+.anac {
   font-family: "Fascinate", system-ui;
   font-weight: 400;
   font-style: normal;
@@ -424,11 +455,11 @@ font-size: 48px;
   background-color: rgb(70, 70, 173);
   color: #00ddeb;
   border-radius: 50px;
-  
+
 
 }
 
-.sakimoto{
+.sakimoto {
   font-family: "Rampart One", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -456,7 +487,7 @@ font-size: 48px;
 }
 
 /* Claire Lee */
-.claire{
+.claire {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: weight;
@@ -476,6 +507,7 @@ font-size: 48px;
     opacity: 0;
     transform: translateY(30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -490,6 +522,32 @@ font-size: 48px;
   text-align: center;
   margin-top: 20px;
   opacity: 0;
-  animation: fadeIn 2s ease-in forwards; 
+  animation: fadeIn 2s ease-in forwards;
 }
 
+.apresbi {
+  font-family: "Fascinate", system-ui;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 80px;
+  background-color: #ff9500;
+  color: #000000;
+  border-radius: 16px;
+}
+
+.tgsegata {
+  width: 35vw;
+  height: 170px;
+  font-family: "Cherry Bomb One", system-ui;
+  color: rgb(255, 148, 205);
+  font-size: 70px;
+  background-color: rgba(255, 148, 205, 0.323);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+.tgsegata:hover {
+  border: 5px solid #7733c042;
+  color: #974de7;
+}
