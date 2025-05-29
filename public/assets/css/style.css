@@ -20,6 +20,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Carattere&family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
 
 body {
@@ -551,4 +552,12 @@ Totally Didn't Just Steal This
 .tgsegata:hover {
   border: 5px solid #7733c042;
   color: #974de7;
+}
+/* Supasak Nilwong*/
+.supasak {
+  font-family: "Audiowide", sans-serif;
+  font-size: 60px;
+  color: #530822;
+  text-align: left;
+  margin-top: 30px;
 }
