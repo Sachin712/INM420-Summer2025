@@ -630,3 +630,16 @@ section.deka span {
   font-size: 70px;
   font-weight: 500;
 }
+
+/*ANA VARGAS*/
+.ana-vargas {
+  font-family: 'Roboto', sans-serif; 
+  font-size: 2rem;
+  color: #3498db;
+  text-align: center;
+  margin-top: 20px;
+}.ana-vargas:hover {
+  color: #e74c3c;
+  transform: scale(1.1);
+  transition: transform 0.3s, color 0.3s;
+}
