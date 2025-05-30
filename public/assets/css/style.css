@@ -630,3 +630,15 @@ section.deka span {
   font-size: 70px;
   font-weight: 500;
 }
+
+.pahul{
+  font-family: fantsay;
+  font-size: 100px;
+  color: #04355c;
+  text-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.2);
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin: 20px 0;
+  text-align: center;
+
+}
