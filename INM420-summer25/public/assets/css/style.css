@@ -20,6 +20,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Carattere&family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 
 body {
@@ -596,4 +597,15 @@ Totally Didn't Just Steal This
   width: 180px;
   border-radius: 12px;
   border: 3px solid #800080;
+}
+
+
+.archi {
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+  color: #4A90E2;
+  text-align: center;
+  margin-top: 100px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
 }
