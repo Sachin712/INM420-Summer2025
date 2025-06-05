@@ -609,3 +609,25 @@ Totally Didn't Just Steal This
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease-in-out;
 }
+
+.Amritpalsingh{
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  padding: 20px 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: fit-content;
+  margin: 50px auto;
+}
+
+.Amritpalsingh:hover{
+  transform: scale(1.05);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+}
